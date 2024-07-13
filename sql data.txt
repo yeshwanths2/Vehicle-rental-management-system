@@ -1,0 +1,11 @@
+create database vehicalS;
+use vehicalS;
+show databases;  
+create table login(username varchar(20), password varchar (20));
+select * from login;
+insert into login value('admin','12345');
+create table driver( driverid varchar(20), name varchar(20), age varchar(20), gender varchar(20),available varchar(20), mobileno varchar(20));
+select * from driver;
+create table vehicalreg(regno varchar(20), type varchar(20), name varchar(20), model varchar(20), status varchar(20), price varchar(20));
+select * from vehicalreg;
+drop database  vehicalMS;
